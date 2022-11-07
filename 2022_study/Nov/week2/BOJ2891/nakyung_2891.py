@@ -30,7 +30,4 @@ for i in broken:
             result = result - 1
             more.remove(j)
 
-if (result < 0):
-    result = 0
-
 print(result)
