@@ -24,11 +24,11 @@ for i in broken:
         more.remove(i)
         broken.remove(i)
 
-for i in range(len(broken)):
-    for j in range(len(more)):
-        if (broken[i] >= more[j]-1 and broken[i] <= more[j]+1):
+for i in broken:
+    for j in more:
+        if (i >= j-1 and i <= j+1):
             result = result - 1
-            more[j] = 12
+            more.remove(j)
 
 if (result < 0):
     result = 0
