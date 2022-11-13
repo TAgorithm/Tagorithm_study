@@ -1,4 +1,5 @@
 ### 카약과 강풍
+
 import sys
 input = sys.stdin.readline
 
