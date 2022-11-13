@@ -1,5 +1,4 @@
 ### 카약과 강풍
-
 import sys
 input = sys.stdin.readline
 
@@ -29,5 +28,5 @@ for i in broken:
         if (i >= j-1 and i <= j+1):
             result = result - 1
             more.remove(j)
-
+            
 print(result)

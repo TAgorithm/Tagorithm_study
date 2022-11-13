@@ -36,5 +36,4 @@ for i in range(M):
             if (minute[-1] == 0):
                 result += score.pop()
                 minute.pop()
-
 print(result)
